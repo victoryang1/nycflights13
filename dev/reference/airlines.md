@@ -1,0 +1,50 @@
+# Airline names
+
+Look up airline names from their carrier codes.
+
+## Usage
+
+``` r
+airlines
+```
+
+## Format
+
+Data frame with columns
+
+- carrier:
+
+  Two letter abbreviation.
+
+- name:
+
+  Full name.
+
+## Source
+
+<https://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236>
+
+## Examples
+
+``` r
+  airlines
+#> # A tibble: 16 × 2
+#>    carrier name                       
+#>    <chr>   <chr>                      
+#>  1 9E      Endeavor Air Inc.          
+#>  2 AA      American Airlines Inc.     
+#>  3 AS      Alaska Airlines Inc.       
+#>  4 B6      JetBlue Airways            
+#>  5 DL      Delta Air Lines Inc.       
+#>  6 EV      ExpressJet Airlines Inc.   
+#>  7 F9      Frontier Airlines Inc.     
+#>  8 FL      AirTran Airways Corporation
+#>  9 HA      Hawaiian Airlines Inc.     
+#> 10 MQ      Envoy Air                  
+#> 11 OO      SkyWest Airlines Inc.      
+#> 12 UA      United Air Lines Inc.      
+#> 13 US      US Airways Inc.            
+#> 14 VX      Virgin America             
+#> 15 WN      Southwest Airlines Co.     
+#> 16 YV      Mesa Airlines Inc.         
+```
